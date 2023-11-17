@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+padding: 0px;
+
+}
+
+.font_baloo{
+    font-family: 'Baloo Bhai', cursive;
+}
+.font_bree{
+    font-family: 'Bree Serif', serif;
+}
+
+.font_n{
+    font-family: 'Nunito', sans-serif;
+}
+
+.web{
+
+    display: contents;
+    /* flex-direction: row; */
+}
+.web::before{
+    content: "";
+    background-image: url('./hackathon/logbg/3\ .jpg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.68;
+
+}
+
+#head h3{
+color: white;
+display: inline;
+padding: 5px 5px;
+margin: 5px 5px;
+font-weight: bold;
+position: relative;
+top: 122px;
+left: 498px;
+font-size: 1.9em;
+
+
+}
+#log{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 608px;
+    height: 523px;
+    border: white 3px solid;
+    /* padding: 10px 10px; */
+    margin: -9px 10px;
+    position: relative;
+    top: 147px;
+    left: 452px;
+    border-radius: 10px;
+}
+
+#log h1{
+    color: white;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+/* form */
+
+.same{
+
+    margin: 20px 0px;
+    
+}
+
+.fame{
+    padding: 5px;
+    margin: 8px;
+    text-align: center;
+}
+
+.same input{
+    border-radius: 5px;
+    border-color: white;
+    padding: 4px 9px;
+    font-size: 1.3em;
+}
+
+
+
+.same label{
+    font-size: 1.4em;
+    color: white;
+    
+}
+#email_id{
+    margin: 0px 29px;
+}
+
+#agree{
+    width: 20px;
+    height: 20px;
+}
+
+#sbut{
+    padding: 9px 28px;
+    margin: 7px 166px;
+    border-radius: 8px;
+    font-size: 1.3em;
+    color: #e2dbc9;
+    border-color: #9c9ccb;
+    background-color: rgb(54, 54, 108);
+}
+
+#sbut:hover{
+    background-color: rgb(38, 38, 79);
+
+}
+
+.reg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.reg p{
+    color: white;
+    font-size: 1.2rem;
+}
+.aclass{
+    color: rgb(12, 17, 96);
+    font-size: 1.2rem;
+}
+
+.aclass:hover{
+    color: rgb(19, 27, 140);
+
+}
+
+/* options */
+#liv{
+    padding: 7px 40px;
+    margin: 0px 59px;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    color: rgb(100, 98, 98);
+}

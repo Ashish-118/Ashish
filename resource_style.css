@@ -1,0 +1,287 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.font_baloo{
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.font_bree{
+    font-family: 'Bree Serif', serif;
+}
+
+.font_n{
+    font-family: 'Nunito', sans-serif;
+}
+
+.main{
+    display: contents;
+   
+}
+.main::before{
+    content: "";
+    background-image: url('./hackathon/logbg/3\ .jpg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.68;
+
+}
+.container{
+display: flex;
+position: static;
+}
+
+.container::before{
+    content: "";
+    border: 2px solid;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    opacity: 0.6;
+    width: 99.8%;
+    height: 87px;
+}
+.uclass{
+    display: flex;
+    margin: 0px 280px
+   
+}
+
+.uclass li{
+    padding: 4px 4px;
+    list-style: none;
+    padding: 4px;
+}
+
+.uclass li a {
+
+    text-decoration: none;
+    color: white;
+    padding: 7px 16px
+}
+
+#logo{
+    margin: 7px 5px;
+    width: 93px;
+    height: 78px;
+    filter: invert(1);
+}
+
+.role{
+    color: white;
+    padding: 4px 4px;
+    border: white 2px solid;
+    width: 348px;
+    height: 26px;
+    font-size: 1.3rem;
+    border-radius: 7px;
+}
+
+.same{
+    margin: 23px -8px;
+}
+.fame{
+    margin: -1px 0px;
+    font-size: 1.4rem;
+    
+}
+
+.uclass li a:hover,.uclass li a.active2{
+    text-decoration: underline;
+    animation: hov 0.3s ease-in-out 0s 1 alternate;
+    animation-fill-mode: both;
+    color: rgb(37, 37, 68);
+}
+
+
+
+
+
+@keyframes hov {
+    from{
+        background-color: none;
+        
+    }
+    to{
+        background-color:rgba(165, 165, 165, 0.522) ;
+        border-radius: 8px;
+        
+    }
+}
+
+
+/* section 1 */
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    margin: -11px 0px;
+    position: relative;
+    top: 65px;
+
+}
+
+#tit{
+    display: inline-block;
+    color: white;
+    font-size: 1.9rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 38px 0px;
+    border: rgb(33, 33, 66) 2px solid;
+    width: 139px;
+    height: 40px;
+    position: relative;
+    top: -15px;
+    left: 662px;
+    padding: 16px 38px;
+    border-radius: 9px;
+    background-color: rgb(33, 33, 66);
+    box-shadow: -9px 9px 6px grey;
+}
+
+.hab{
+    font-size: 1.4rem;
+    /* text-decoration: underline; */
+    color: rgb(48, 48, 71);
+}
+
+.boxcontain{
+    display: flex;
+    margin: 4px 0px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    position: relative;
+    width: 259px;
+    height: 285px;
+    border: none 2px solid;
+    margin: 5px 8px;
+    left: 68px;
+    border-radius: 10px;
+    box-shadow: 9px 9px 6px rgb(21, 37, 44);
+    
+}
+.sox{
+    box-shadow: 6px 6px 6px rgb(163 163 163)
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    margin: 105px 0px
+}
+.section2::before{
+    content: "";
+    background-image: url(./hackathon/logbg/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 81%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+.box::before{
+    content: "";
+    background-color:rgb(65 153 145);
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+    width: 259px;
+    height: 285px;
+    border-radius: 10px;
+}
+
+.boxcontain2{
+    display: flex;
+    position: relative;
+    top: 39px;
+}
+
+.box img{
+    width: 259px;
+    height: 240px;
+    border-radius: 10px;
+}
+.box h2{
+    font-size: 1.4rem;
+    color: white;
+    text-align: center;
+}
+
+.mox:hover {
+    animation: box 0.00000001s none 0.1s 1 alternate;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes box {
+    
+    from {
+        top: 0px;
+        box-shadow: 9px 9px 6px rgb(21, 37, 44);
+        
+        
+    }
+    
+    to {
+        top: -15px;
+        box-shadow: 9px 9px 20px rgb(21, 37, 44);
+        
+        
+    }
+}
+.sox:hover {
+    animation: sox 0.00000001s none 0.1s 1 alternate;
+    animation-fill-mode:both;
+    
+}
+
+@keyframes sox {
+    
+    from {
+        top: 0px;
+        box-shadow: 6px 6px 6px rgb(163 163 163)
+
+        
+        
+    }
+    
+    to {
+        top: -15px;
+        box-shadow: 6px 6px 20px rgb(163 163 163)
+
+        
+        
+    }
+    
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 175px;
+    background-color: black;
+    color: white;
+    height: 29px;
+}
+
+
+
+

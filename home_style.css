@@ -1,0 +1,258 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.font_baloo{
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.font_bree{
+    font-family: 'Bree Serif', serif;
+}
+
+.font_n{
+    font-family: 'Nunito', sans-serif;
+}
+
+.main{
+    display: contents;
+   
+}
+.main::before{
+    content: "";
+    background-image: url('./hackathon/logbg/3\ .jpg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.68;
+
+}
+.container{
+display: flex;
+}
+
+.container::before{
+    content: "";
+    border: 2px solid;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    opacity: 0.6;
+    width: 100%;
+    height: 87px;
+}
+.uclass{
+    display: flex;
+    margin: 0px 280px
+   
+}
+
+.uclass li{
+    padding: 4px 4px;
+    list-style: none;
+    padding: 4px;
+}
+
+.uclass li a {
+
+    text-decoration: none;
+    color: white;
+    padding: 7px 16px
+}
+
+#logo{
+    margin: 7px 5px;
+    width: 93px;
+    height: 78px;
+    filter: invert(1);
+}
+
+.role{
+    color: white;
+    padding: 4px 4px;
+    border: white 2px solid;
+    width: 348px;
+    height: 26px;
+    font-size: 1.3rem;
+    border-radius: 7px;
+}
+
+.same{
+    margin: 23px -8px;
+}
+.fame{
+    margin: -1px 0px;
+    font-size: 1.4rem;
+    
+}
+
+.uclass li a:hover,.uclass li a.active{
+    text-decoration: underline;
+    animation: hov 0.3s ease-in-out 0s 1 alternate;
+    animation-fill-mode: both;
+    color: rgb(37, 37, 68);
+}
+
+
+
+
+@keyframes hov {
+    from{
+        background-color: none;
+        
+    }
+    to{
+        background-color:rgba(165, 165, 165, 0.522) ;
+        border-radius: 8px;
+        
+    }
+}
+
+
+/* section 1 */
+
+.section1{
+    display: flex;
+    /* flex-direction: column; */
+}
+
+#tit{
+    display: inline-block;
+    color: white;
+    font-size: 1.9rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 38px 0px;
+    border: rgb(33, 33, 66) 2px solid;
+    width: 570px;
+    height: 40px;
+    position: relative;
+    top: -1px;
+    left: 453px;
+    padding: 16px 38px;
+    border-radius: 9px;
+    background-color: rgb(33, 33, 66);
+    box-shadow: -9px 9px 6px grey;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: white 2px solid;
+    color: white;
+    position: absolute;
+    top: 265px;
+    left: 400px;
+    
+    
+}
+
+.box::before{
+    content: "";
+    background-color: rgb(176, 144, 62);
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.cbox1::before{
+
+    width: 526px;
+    height: 406px;
+
+}
+
+#box1{
+    width: 500px;
+    height: 382px;
+    border-radius: 10px;
+    padding: 13px;
+    position: absolute;
+    top: 259px;
+    left: 500px;
+    text-align: center;
+}
+
+.hab{
+    font-size: 1.4rem;
+    text-decoration: underline;
+    color: rgb(48, 48, 71);
+}
+
+#box1 p{
+    font-size: 1.2rem;
+    color: rgb(247, 246, 246);
+
+}
+#box2{
+    width: 341px;
+    height: 550px;
+    position: absolute;
+    left: 17px;
+    text-align: center;
+    top: 118px;
+    border-radius: 10px;
+}
+
+#box2 img{
+    width: 343px;
+    height: 208px;
+    border-radius: 10px;
+}
+#box2 p{
+    font-size: 1.2rem;
+    color: rgb(247, 246, 246);
+
+}
+
+.cbox2::before{
+
+
+    width: 341px;
+    height: 551px;
+}
+#box3{
+    width: 363px;
+    height: 539px;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: 118px;
+    left: 1131px;
+    border-radius: 10px;
+}
+#box3 p{
+    font-size: 1.2rem;
+    color: rgb(247, 246, 246);
+
+}
+
+.cbox3::before{
+    width: 371px;
+    height: 549px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 456px;
+    background-color: black;
+    color: white;
+    height: 29px;
+}
+
+
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pec Resources</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="hack1_login_st.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <script src="back.js"></script>
+</head>
+<body>
+    <div class="web">
+        <div id="head">
+            <h3 class="font_bree">Welcome to the Pec Resource Harmony</h3>
+        </div>
+
+        <div id="log">
+            <h1 class="font_baloo">Registration</h1>
+
+            <div id="forms">
+                <form action="backend.php">
+
+                    <div class="same">
+                        <label class="font_n" for="user">Username</label>
+                        <input type="text" name="name1" id="user" class="fame" placeholder="@Username">
+                    </div>
+                    <div class="same">
+                        <label class="font_n" for="phone">Mobile No</label>
+                        <input type="number" name="name" id="phone" class="fame" placeholder="@Mobile number">
+                    </div>
+                    
+                    <div class="same">
+                        <label
+                            for="liv">Role?</label>
+                        <select name="name3" id="liv">
+                            <option value="chd">Class representative</option>
+                            <option value="tm">Club Secretary</option>
+                            <option value="k">Overall Student Head</option>
+                            <option value="d">Club Incharge</option>
+       
+                        </select>
+                    </div>
+
+                    <div class="same">
+                        <label class="font_n" for="email_id">Email Id</label>
+                        <input type="text" name="name2" id="email_id" placeholder="pecAcm@example.com" class="fame" pattern=".+@example\.com" required>
+                    </div>
+                    <div class="same">
+                        <label class="font_n" for="pass">Password</label>
+                        <input type="text" name="name3" id="pass" placeholder="password"  class="fame">
+                    </div>
+                    <div class="same">
+                        <input type="checkbox" name="name4" id="agree" class="fame">
+                        <label class="font_n" for="agree">Yes, I Agree for the Terms and Conditions.</label>
+                    </div>
+
+ 
+                    <div class="same" >
+                        <button id="sbut" class="font_bree">Register</button>
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
